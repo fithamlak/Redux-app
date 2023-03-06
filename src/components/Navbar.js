@@ -5,10 +5,10 @@
     const { amount } = useSelector((store) => store.cart);
     return (
         <nav>
-            <div nav-center>
+            <div className='nav-center'>
                 <h3>Redux toolkit</h3>
             </div>
-            <div nav-container>
+            <div className='nav-container'>
                 <CartIcon />
                 <div className='amount-container'>
                     <p className='total-amount'>{amount}</p>
